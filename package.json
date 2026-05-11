@@ -1,0 +1,31 @@
+{
+  "name": "bootcamp-sample",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto Javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload",
+    "deploy": "echo Comando reservado",
+    "build": "echo Comando reservado"
+  },
+  "keywords": [
+    "javasscript",
+    "html",
+    "gym"
+  ],
+  "author": "Alvaro",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.0.9",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "oxfmt": "^0.48.0",
+    "oxlint": "^1.63.0",
+    "servor": "^4.0.2"
+  }
+}
